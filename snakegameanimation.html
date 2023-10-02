@@ -1,0 +1,240 @@
+<html>
+    <head>
+        <style>
+           body{
+            background-image: url(./snake\ game.jpg);
+            
+           }
+           
+           
+           
+           
+       
+        
+           
+           
+.ball{
+    position:fixed;
+    background-color: rgb(167, 13, 13);
+    top:320px;
+    left: 420px ;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-delay: 2.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    animation-timing-function: linear;
+    box-shadow: inset  0 0 18px ;
+
+}
+.ball6{
+    position:fixed;
+    background-color: rgb(167, 13, 13);
+    top:370px;
+    left: 400px ;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+
+    animation-timing-function: linear;
+    box-shadow: inset  0 0 18px ;
+
+}
+.ball2{
+    position:fixed;
+    background-color: rgb(176, 12, 12);
+    top: 220px;
+    left: 500px ;
+    width: 40px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-shadow:inset 0 0 18px ;
+    transform: rotate(180deg);
+
+}
+.ball3{
+    position:fixed;
+    background-color: rgb(192, 19, 19);
+    top: 105px;
+    left: 100px ;
+    width: 40px;
+    height: 30px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 0%;
+    padding: 0%;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-delay: 0s;
+animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transform: rotate(360deg);
+
+    box-shadow: inset  0 0 18px ;
+
+}
+@keyframes example {
+    
+    0% { opacity: 1;}
+
+    100% {opacity: 0;}
+    
+    
+    
+}
+
+
+
+.ball4{
+    position:fixed;
+    background-color: rgb(110, 11, 11);
+    top: 425px;
+    left: 750px ;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 0%;
+    padding: 0%;
+    animation-name:example ;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count:1;
+
+    animation-fill-mode: forwards;
+
+    box-shadow: inset  0 0 18px ;
+    transform: rotate(360deg);
+
+
+}
+.ball5{
+    position:fixed;
+    background-color: rgb(151, 21, 21);
+    top: 125px;
+    left: 1100px ;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 0%;
+    padding: 0%;
+    animation-name:example;
+    animation-duration: 4s;
+    animation-delay: 4.3s;
+    animation-iteration-count:1;
+
+    animation-fill-mode: forwards;
+
+    box-shadow: inset  0 0 18px ;
+
+}
+
+
+
+    
+
+.pl{
+    position: relative;
+    top: 10px;
+    left:200px;
+    animation-name: gopal ;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count:1;
+    animation-direction: right;
+}
+@keyframes gopal {
+    0% {left: 0px; top: 0px;}
+
+    15% {left: 0px; top:100px;}
+    30%{left: 400px; bottom: 300px;}
+    45%{right:200px; top:100px ;}
+    53%{left: 300px; top: 300px;} 
+    60%{left: 600px; top: 400px;}
+    75%{right: 450px; bottom: 200px;}
+    90%{left: 900px; bottom: 500px;}
+    100%{left:1100px; bottom:400px} 
+
+}  
+
+
+
+        
+        
+        
+    
+   
+   
+
+   
+   
+  
+  
+   
+    
+    h1{
+        position: relative;
+        text-align: center;
+        font-size: xxx-large;
+        text-shadow: 2px 2px greenyellow;
+        top: 400px;
+        right: 80px;
+    }
+    
+      
+      
+        
+        audio{
+            position: relative;
+            top: 1000px;
+        }
+
+
+
+        </style>
+    </head>
+    <body>
+<h1 style="color: rgb(220, 61, 13);">Forest Game</h1>
+
+        <div class="ball2">1</div>
+        <div class="ball3">3</div>
+        <div class="ball4"></div>
+        <div class="ball5"></div>
+        <div class="ball6"></div>
+        <div class="pl">
+        <img src="./snake-removebg-preview.png" width="100" height="100">
+        </div>
+        <audio controls autoplay>
+            <source src="./Pufino - Feeling Good (freetouse.com).mp3">
+        </audio>
+    </body>
+</html>
